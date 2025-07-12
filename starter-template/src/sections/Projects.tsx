@@ -6,19 +6,20 @@ import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
 import { Card } from "@/components/Card";
+import QuickCart from "@/assets/images/QuickCart.png";
 
 const portfolioProjects = [
   {
     company: "E-Commerce Website",
-    year: "2024",
-    title: "StreetVerse",
+    year: "2025",
+    title: "QuickCart",
     results: [
-      { title: "Boosted server engagement by 40%" },
-      { title: "Simplified Shopping Experience" },
-      { title: "Added a Strive Payment Gateway" },
+      { title: "Added an Admin Page to add,delete products and see order details" },
+      { title: "Used Clerk for User Authentication and Inngest for handling user functions" },
+      { title: "Added a Strive Payment Gateway for seemless payment" },
     ],
-    link: "https://streetverse.vercel.app/",
-    image: StreetVerse,
+    link: "https://quick-cart-indol.vercel.app/",
+    image: QuickCart,
   },
   {
     company: "Weather Dashboard",
