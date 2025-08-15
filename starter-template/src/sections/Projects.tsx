@@ -7,6 +7,7 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
 import { Card } from "@/components/Card";
 import QuickCart from "@/assets/images/QuickCart.png";
+import Imaigfy from "@/assets/images/Imaigfy.png";
 
 const portfolioProjects = [
   {
@@ -22,16 +23,16 @@ const portfolioProjects = [
     image: QuickCart,
   },
   {
-    company: "Weather Dashboard",
-    year: "2024",
-    title: "Weather Dashboard",
+    company: "AI Saas Website",
+    year: "2025",
+    title: "Imaigfy",
     results: [
-      { title: "Responsive Weather Dashborad with Live Updates" },
-      { title: "Light and Dark User mode" },
-      { title: "Forecasting for major cities for faster access" },
+      { title: "Dynamic React-based interface with live generation progress, real-time credit balance updates, and instant image delivery notifications" },
+      { title: "Sleek Tailwind CSS-powered dual theme system optimizing the creative workspace for any lighting condition or user preference" },
+      { title: "Pre-built template library featuring portraits, landscapes, digital art, and trending styles for faster high-quality image generation via Clipdrop API" },
     ],
-    link: "https://weather-dashboard-smoky.vercel.app/",
-    image: Weather,
+    link: "https://imagify-4tah.vercel.app/",
+    image: Imaigfy,
   },
   {
     company: "Car Rental",
